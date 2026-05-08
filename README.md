@@ -32,21 +32,22 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
 🏗️ System Architecture
 
 
-PDF Documents
-      │
-      ▼
-┌─────────────────────────┐
-│    PDFIngestionAgent    │  → Extracts & chunks PDFs
-└────────────┬────────────┘
+         PDF Documents
              │
              ▼
-┌─────────────────────────┐
-│    PreprocessorAgent    │  → Tokenization, POS, NER,
-│                         │    Lemmatization
-└────────────┬────────────┘
-             │
-      ┌──────┴──────┐
-      ▼             ▼
+             
+   ┌─────────────────────────┐
+   │    PDFIngestionAgent    │  → Extracts & chunks PDFs
+   └────────────┬────────────┘
+                │
+                ▼
+   ┌─────────────────────────┐
+   │    PreprocessorAgent    │  → Tokenization, POS, NER,
+   │                         │    Lemmatization
+   └────────────┬────────────┘
+                │
+         ┌──────┴──────┐
+         ▼             ▼
 
 ┌────────────────┐   ┌──────────────────────┐
 │   TopicModel   │   │    EmbeddingAgent    │
