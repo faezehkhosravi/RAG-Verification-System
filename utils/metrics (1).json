@@ -1,0 +1,11 @@
+{
+  "verifier": {
+    "total_claims": 2,
+    "entailment": 0,
+    "contradiction": 0,
+    "neutral": 2,
+    "similarity_threshold": 0.8,
+    "sim_ok_count": 1,
+    "sim_total_checks": 4
+  }
+}
