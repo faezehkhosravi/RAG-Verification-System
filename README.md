@@ -67,9 +67,9 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
          
   ┌────────────────┐   ┌──────────────────────┐
  
-  │   TopicModel   │    │    EmbeddingAgent    │
+  │   TopicModel   │         │    EmbeddingAgent    │
   
-  │   (LDA / NMF)  │    │   Word2Vec / SBERT   │
+  │   (LDA / NMF)  │         │   Word2Vec / SBERT   │
  
   └────────────────┘   └──────────┬───────────┘
  
