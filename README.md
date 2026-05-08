@@ -36,6 +36,7 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
              │
              ▼
    
+       ```text
                      ▼
 
 ┌─────────────────────────┐
@@ -60,6 +61,8 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
 │   (LDA / NMF)  │   │   Word2Vec / SBERT   │
 └────────────────┘   └──────────┬───────────┘
                                  │
+                                 ▼
+```
                                  ▼
 ```
                                  ▼
