@@ -38,31 +38,40 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
                
 
    ┌─────────────────────────┐
+   
    │    PDFIngestionAgent    │
+   
    │  Extracts & chunks PDFs │
+   
    └────────────┬────────────┘
+   
                 │
+                
                 ▼
                 
-
    ┌─────────────────────────┐
+   
    │    PreprocessorAgent    │
+   
    │ Tokenization, POS, NER, │
+   
    │      Lemmatization      │
-   └────────────┬────────────┘
+   
+   └────────────┬────────────┘ 
+   
                 │
          ┌──────┴──────┐
+         
          │             │
+         
          ▼             ▼
+         
 
   ┌────────────────┐   ┌──────────────────────┐
   │   TopicModel   │   │    EmbeddingAgent    │
   │   (LDA / NMF)  │   │   Word2Vec / SBERT   │
   └────────────────┘   └──────────┬───────────┘
                                   │
-                                  ▼
- ```
-                                  ▼
   ```
                                   ▼
 
