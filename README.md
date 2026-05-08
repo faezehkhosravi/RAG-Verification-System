@@ -58,13 +58,12 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
    │      Lemmatization      │
    
    └────────────┬────────────┘ 
-   
-                │
-         ┌──────┴──────┐
+               
+              ┌──────┴──────┐
          
-         │             │
+              │             │
          
-         ▼             ▼
+              ▼             ▼
          
   ┌────────────────┐   ┌──────────────────────┐
  
