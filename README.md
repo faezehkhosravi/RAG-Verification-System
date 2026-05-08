@@ -30,6 +30,7 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
 
 
 🏗️ System Architecture
+
 PDF Documents
       │
       ▼
@@ -78,6 +79,8 @@ PDF Documents
 │  Memory  │ │  Visualizer      │
 │  Agent   │ │  Agent           │  ── Confidence plots, Agent graph
 └──────────┘ └──────────────────┘
+
+
 
 🤖 Agents Description
 1. pdf_ingestion_agent.py — PDF Ingestion Agent
