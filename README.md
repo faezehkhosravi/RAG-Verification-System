@@ -117,6 +117,32 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
 ```
 
 
+```mermaid
+flowchart TD
+
+    A[PDF Documents]
+
+    A --> B[PDFIngestionAgent<br/>Extracts & chunks PDFs]
+
+    B --> C[PreprocessorAgent<br/>Tokenization, POS, NER, Lemmatization]
+
+    C --> D[TopicModel<br/>LDA / NMF]
+    C --> E[EmbeddingAgent<br/>Word2Vec / SBERT]
+
+    E --> F[RetrieverAgent<br/>Hybrid BM25 + Pinecone Dense]
+
+    F --> G[PlannerAgent<br/>RAG + QA]
+    F --> H[RetrieverExperimentAgent<br/>Reranking & Ablation]
+
+    G --> I[SummarizerAgent<br/>Structured Policy Briefs]
+
+    I --> J[Debate Agents<br/>Pro vs Critical]
+    I --> K[Verifier Agent<br/>NLI Claim Check]
+
+    J --> L[Memory Agent<br/>Conversation & Retrieval Memory]
+    K --> M[Visualizer Agent<br/>Confidence Plots & Agent Graph]
+```
+
 🤖 Agents Description
 1. pdf_ingestion_agent.py — PDF Ingestion Agent
 
