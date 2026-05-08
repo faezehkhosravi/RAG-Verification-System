@@ -31,38 +31,40 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
 
 🏗️ System Architecture
 
+ 
+           PDF Documents
+               │
+               ▼
+               
 
-         PDF Documents
-             │
-             ▼
+   ┌─────────────────────────┐
+   │    PDFIngestionAgent    │
+   │  Extracts & chunks PDFs │
+   └────────────┬────────────┘
+                │
+                ▼
+                
 
-┌─────────────────────────┐
-│    PDFIngestionAgent    │
-│  Extracts & chunks PDFs │
-└────────────┬────────────┘
-             │
-             ▼
+   ┌─────────────────────────┐
+   │    PreprocessorAgent    │
+   │ Tokenization, POS, NER, │
+   │      Lemmatization      │
+   └────────────┬────────────┘
+                │
+         ┌──────┴──────┐
+         │             │
+         ▼             ▼
 
-┌─────────────────────────┐
-│    PreprocessorAgent    │
-│ Tokenization, POS, NER, │
-│      Lemmatization      │
-└────────────┬────────────┘
-             │
-      ┌──────┴──────┐
-      │             │
-      ▼             ▼
-
-┌────────────────┐   ┌──────────────────────┐
-│   TopicModel   │   │    EmbeddingAgent    │
-│   (LDA / NMF)  │   │   Word2Vec / SBERT   │
-└────────────────┘   └──────────┬───────────┘
-                                 │
-                                 ▼
-```
-                                 ▼
-```
-                                 ▼
+  ┌────────────────┐   ┌──────────────────────┐
+  │   TopicModel   │   │    EmbeddingAgent    │
+  │   (LDA / NMF)  │   │   Word2Vec / SBERT   │
+  └────────────────┘   └──────────┬───────────┘
+                                  │
+                                  ▼
+ ```
+                                  ▼
+  ```
+                                  ▼
 
                       ┌──────────────────────┐
                       │    RetrieverAgent    │
