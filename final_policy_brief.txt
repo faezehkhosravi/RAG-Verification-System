@@ -1,0 +1,37 @@
+Policy Debate Brief - Topic: OECD Employment Outlook 2024
+
+--- TRANSCRIPT ---
+Pro-Innovation Agent:
+LLM simulated response.
+
+Precautionary Agent:
+LLM simulated response.
+
+Precautionary Agent:
+LLM simulated response.
+
+Pro-Innovation Agent:
+LLM simulated response.
+
+Precautionary Agent:
+LLM simulated response.
+
+Pro-Innovation Agent:
+LLM simulated response.
+
+Pro-Innovation Agent - Conclusion:
+LLM simulated response.
+
+Precautionary Agent - Conclusion:
+LLM simulated response.
+
+--- CONSENSUS ---
+- response
+- simulated
+
+--- CONCLUSIONS ---
+Pro-Innovation Agent:
+LLM simulated response.
+
+Precautionary Agent:
+LLM simulated response.

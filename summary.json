@@ -1,0 +1,39 @@
+{
+  "title": "Extractive Summary",
+  "executive_summary": "Policy recommendations included. Automation risks and job displacement discussed. IMF projects GDP growth and discusses regional differences and assumptions.",
+  "key_points": [
+    "Policy recommendations included.",
+    "Automation risks and job displacement discussed.",
+    "IMF projects GDP growth and discusses regional differences and assumptions.",
+    "OECD discusses net-zero transition and impacts on labor demand."
+  ],
+  "evidence": [
+    {
+      "point": "Policy recommendations included.",
+      "citations": [
+        "[src: ac8b3538-en.pdf, p.1]"
+      ]
+    },
+    {
+      "point": "Automation risks and job displacement discussed.",
+      "citations": [
+        "[src: ac8b3538-en.pdf, p.2]"
+      ]
+    },
+    {
+      "point": "IMF projects GDP growth and discusses regional differences and assumptions.",
+      "citations": [
+        "[src: ch1.pdf, p.5]"
+      ]
+    },
+    {
+      "point": "OECD discusses net-zero transition and impacts on labor demand.",
+      "citations": [
+        "[src: ac8b3538-en.pdf, p.1]"
+      ]
+    }
+  ],
+  "recommendations": [
+    "Consider regulatory options; balance innovation and safety."
+  ]
+}

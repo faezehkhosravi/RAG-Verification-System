@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "ts": 1763064678.9144359,
+      "alpha": 0.5,
+      "k": 0.5,
+      "latency": 0.12,
+      "confidence": 0.78,
+      "beta": 0.1,
+      "extra": {}
+    },
+    {
+      "ts": 1763064679.1033936,
+      "alpha": 0.5,
+      "k": 0.5,
+      "latency": null,
+      "confidence": 0.7799999999219993,
+      "beta": 0.0,
+      "extra": {
+        "auto_tune_recommendation": true
+      }
+    },
+    {
+      "ts": 1763064926.0759242,
+      "alpha": 0.3,
+      "k": 0.7,
+      "latency": 0.12,
+      "confidence": 0.75,
+      "beta": null,
+      "extra": {}
+    },
+    {
+      "ts": 1763064926.0868893,
+      "alpha": 0.5,
+      "k": 0.5,
+      "latency": 0.1,
+      "confidence": 0.78,
+      "beta": null,
+      "extra": {}
+    },
+    {
+      "ts": 1763064926.0970974,
+      "alpha": 0.6,
+      "k": 0.4,
+      "latency": 0.15,
+      "confidence": 0.8,
+      "beta": null,
+      "extra": {}
+    },
+    {
+      "ts": 1763064926.1230097,
+      "alpha": 0.75,
+      "k": 0.25,
+      "latency": null,
+      "confidence": 0.7832147127334368,
+      "beta": 0.0,
+      "extra": {
+        "auto_tune_recommendation": true
+      }
+    }
+  ]
+}

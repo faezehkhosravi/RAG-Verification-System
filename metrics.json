@@ -1,0 +1,22 @@
+{
+  "flags": [
+    "high_risk_prompt_injection",
+    "prompt_injection_detected: pattern=ignore (all )?previous instructions, snippet=ignore previous instructions",
+    "prompt_injection_detected: pattern=system:.*, snippet=System: ignore previous instructions.",
+    "prompt_injection_detected: pattern=curl\\s+http, snippet=curl http"
+  ],
+  "pii_items": [
+    {
+      "type": "phone",
+      "match": "49 170 123 4567",
+      "start": 73,
+      "end": 88
+    },
+    {
+      "type": "email",
+      "match": "alice@example.com",
+      "start": 47,
+      "end": 64
+    }
+  ]
+}

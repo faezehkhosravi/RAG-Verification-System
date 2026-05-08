@@ -1,0 +1,18 @@
+{
+  "alpha": 0.6,
+  "top_k": 3,
+  "retrieval_results": [
+    {
+      "text": "transparent systems? How can AI systems’ designers and users be accountable\nand to whom? What new safety and security issues are presented with AI?\nAI is moving fast, and so must governments. National policies are needed to\npromote trustworthy AI systems, including those that encourage investment in\nresponsible AI research and development. In addition to AI technology and\ncomputing capacity, AI leverages vast quantities of data. This increases the\nneed for a digital environment that enables access to data, alongside strong\nprivacy protection. AI enabling ecosystems can also support small and\nmedium sized enterprises (SMEs) as they navigate the AI transition and ensure\n‑\na competitive environment.\n‑\nThe development of national policies and strategies focusing specifically on AI\nis a relatively new phenomenon. To track these initiatives, the OECD AI Policy\nObservatory (OECD.AI) comprises over 620 national AI policies from over 60",
+      "score": 7.768702197708115
+    },
+    {
+      "text": "address the risks that AI can pose when used in the workplace – in terms of privacy, safety, fairness and\nlabour rights – and to ensure accountability, transparency, and explainability for employment-related\ndecisions supported by AI.\nThe implications of generative AI on labour markets require close monitoring\nThere remain many unknowns about the longer-term advancements and implications of generative AI for\nthe labour market. For example, will the impact of generative AI on job automation be larger than what has\nbeen seen so far? Will the integration of LLMs and other generative AI models in other software systems\nthrough application programming interfaces (APIs) accelerate labour market effects? The OECD will\ncontinue to monitor the impact of AI on the labour market, and the policy response to ensure responsible\nand trustworthy use of AI in the workplace.\nOECD ARTIFICIAL INTELLIGENCE PAPERS",
+      "score": 6.662596299183249
+    },
+    {
+      "text": "| 1\nAn overview of national AI strategies and policies\nAN OVERVIEW OF NATIONAL AI STRATEGIES AND POLICIES © OECD 2021\n\n---",
+      "score": 6.340362178655333
+    }
+  ]
+}
