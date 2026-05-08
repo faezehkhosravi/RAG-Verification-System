@@ -35,9 +35,6 @@ Tracks memory, auto-tunes parameters, and visualizes system performance
          PDF Documents
              │
              ▼
-   
-       ```text
-                     ▼
 
 ┌─────────────────────────┐
 │    PDFIngestionAgent    │
